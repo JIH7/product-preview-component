@@ -1,0 +1,11 @@
+{
+  "name": "product-preview-card",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./input.css -o ./main.css --watch"
+  },
+  "author": "Jeremy Helsel",
+  "license": "ISC"
+}
