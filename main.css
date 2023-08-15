@@ -676,6 +676,11 @@ video {
   color: hsl(228 12% 48% / var(--tw-text-opacity));
 }
 
+.text-veryDarkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(212 21% 14% / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
@@ -700,6 +705,14 @@ img {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+@-moz-document url-prefix() {
+  @media (min-width: 768px) {
+    img.hidden {
+      width: auto;
+    }
+  }
 }
 
 .hover\:bg-hoverDarkCyan:hover {

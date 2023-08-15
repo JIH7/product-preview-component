@@ -18,3 +18,11 @@ img {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+@-moz-document url-prefix() {
+    @media (min-width: 768px) {
+        img.hidden {
+            width: auto;
+        }
+    }
+}
